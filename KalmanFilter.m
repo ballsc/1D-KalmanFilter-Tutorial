@@ -13,3 +13,5 @@ z = [x(:,1) + randn(500,1)*R_x x(:,2) + randn(500,1)*R_v];
 
 baseline_x_rmse = sqrt(sum((x(:,1) - z(:,1)).^2)/500);
 baseline_xv_rmse = sqrt(sum((x(:,2) - z(:,2)).^2)/500);
+
+% 
